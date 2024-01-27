@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #333;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.draggeble{
+    background-color: #fff;
+    padding: 1rem;
+    margin: 2rem;
+    border: 1px solid black;
+    cursor: move;
+}
+
+.draggeble.dragging{
+    opacity: 0.5;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blueviolet;
+}
+
+#yellow{
+    background-color: yellowgreen;
+}
+
+#green{
+    background-color: goldenrod;
+}
